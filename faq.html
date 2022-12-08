@@ -164,7 +164,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>1- Head over to the build instructions page <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here.</a><br> 2- Build and launch BasicSwap by following the instructions.<br> 3- Wait for the client and wallets to sync. You can check the progress in the Wallets page.<br> 4- Once the blockchains are synced up, you’re ready to go! Note: Because we use Monero’s bootstrapping function, you can start swapping Monero as soon as you launch BasicSwap, without requiring its blockchain to be synced in full.</p>
+                <p>1- Head over to the build instructions page <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here.</a><br><br> 2- Build and launch BasicSwap by following the instructions.<br><br> 3- Wait for the client and wallets to sync. You can check the progress in the Wallets page.<br><br> 4- Once the blockchains are synced up, you’re ready to go! Note: Because we use Monero’s bootstrapping function, you can start swapping Monero as soon as you launch BasicSwap, without requiring its blockchain to be synced in full.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -175,7 +175,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>1- Head over to the Tor setup instructions page <a class="text-blue-500" href="https://github.com/tecnovert/basicswap/blob/master/doc/tor.md" target="_blank" rel="noopener noreferrer">here.</a><br> 2- Route all traffic through a Tor proxy by following the specific instructions depending on whether you’re running a fresh install or have already been using BasicSwap.</p>
+                <p>1- Head over to the Tor setup instructions page <a class="text-blue-500" href="https://github.com/tecnovert/basicswap/blob/master/doc/tor.md" target="_blank" rel="noopener noreferrer">here.</a><br><br> 2- Route all traffic through a Tor proxy by following the specific instructions depending on whether you’re running a fresh install or have already been using BasicSwap.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -186,7 +186,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>1- In BasicSwap, navigate to the Wallets page.<br> 2- Click on the Manage button of the coin you wish to Deposit.<br> 3- Copy the deposit address displayed on BasicSwap. 4- Send your funds to this address.</p>
+                <p>1- In BasicSwap, navigate to the Wallets page.<br><br> 2- Click on the Manage button of the coin you wish to Deposit.<br><br> 3- Copy the deposit address displayed on BasicSwap. <br><br>4- Send your funds to this address.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -197,7 +197,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>1- In BasicSwap, navigate to the Wallets page.<br> 2- Click on the Manage button of the coin you wish to withdraw.<br> 3- Enter the deposit address and amount you wish to withdraw and make sure that the information is correct.<br> 4- Click Withdraw.</p>
+                <p>1- In BasicSwap, navigate to the Wallets page.<br><br> 2- Click on the Manage button of the coin you wish to withdraw.<br><br> 3- Enter the deposit address and amount you wish to withdraw and make sure that the information is correct.<br><br> 4- Click Withdraw.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -244,7 +244,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>No. BasicSwap is an open and unrestricted DEX protocol. It isn’t tied to a native coin or token, and doesn’t contain a monetization layer. This approach makes it an ideal base layer for other DEXs to be built on top of.</p>
+                <p><b>No.</b> BasicSwap is an open and unrestricted DEX protocol. It isn’t tied to a native coin or token, and doesn’t contain a monetization layer. This approach makes it an ideal base layer for other DEXs to be built on top of.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -255,7 +255,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>We are always working on adding more assets to BasicSwap. You can see the list of currently available coins here. If you’d like to see the addition of a specific coin or token to the DEX, please take a look at this page to learn how you can apply for a listing. Alternatively, you can integrate compatible coins yourself by following this integration example <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here.</a></p>
+                <p>We are always working on adding more assets to BasicSwap. You can see the list of currently available coins <a class="text-blue-500" href="https://basicswapdex.com/markets" target="_blank" rel="noopener noreferrer">here.</a><br><br> If you’d like to see the addition of a specific coin or token to the DEX, please take a look at this page to learn how you can apply for a listing. Alternatively, you can integrate compatible coins yourself by following this integration example <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here.</a></p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -266,7 +266,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>0%. BasicSwap does not charge trading or service fees. However, please note that, because it uses atomic swap technology, all swaps are settled on-chain, meaning that you’ll need to pay the typical blockchain transaction fee for the coins that you are swapping. In most cases, this is only a few cents, sometimes less.</p>
+                <p><b>0%</b>. BasicSwap does not charge trading or service fees. However, please note that, because it uses atomic swap technology, all swaps are settled on-chain, meaning that you’ll need to pay the typical blockchain transaction fee for the coins that you are swapping. In most cases, this is only a few cents, sometimes less.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -277,7 +277,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>At this current stage of the beta, only full BasicSwap nodes are available. There are two main steps in setting them up: “building” the application, and syncing the blockchains of the coins you’ve decided to enable. Building the application should take between 10 to 30 minutes, depending on whether or not your system is already set up to build applications and if you follow the instructions carefully. The process of syncing the blockchains on your computer is difficult to estimate because it is entirely dependent on your internet connection speed and which coins you have chosen to enable. As a general rule of thumb, we recommend activating the “fast sync” option for Bitcoin, to start from a pruned chain snapshot, which will speed up Bitcoin’s syncing time by ~94%. For Monero, you don’t need to wait for the blockchain to be fully synced up to start swapping. That’s because we use its bootstrapping functionality, which temporarily connects you to a public node while it syncs. We are working on more convenient solutions such as light services and alternative gateway frameworks (i.e., web availability). These are expected to come at a later stage of the beta. .</p>
+                <p>At this current stage of the beta, only full BasicSwap nodes are available. There are two main steps in setting them up: “building” the application, and syncing the blockchains of the coins you’ve decided to enable.<br><br> Building the application should take between 10 to 30 minutes, depending on whether or not your system is already set up to build applications and if you follow the instructions carefully.<br><br> The process of syncing the blockchains on your computer is difficult to estimate because it is entirely dependent on your internet connection speed and which coins you have chosen to enable.<br><br> As a general rule of thumb, we recommend activating the “fast sync” option for Bitcoin, to start from a pruned chain snapshot, which will speed up Bitcoin’s syncing time by ~94%. For Monero, you don’t need to wait for the blockchain to be fully synced up to start swapping. That’s because we use its bootstrapping functionality, which temporarily connects you to a public node while it syncs.<br><br> We are working on more convenient solutions such as light services and alternative gateway frameworks (i.e., web availability). These are expected to come at a later stage of the beta.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -288,7 +288,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>The time it takes to complete a swap is entirely dependent on what coins are being swapped. Because BasicSwap uses the atomic swap protocol, swap settlements happen on-chain. That means you have to wait for a few blocks for swaps to confirm on both chains, thus making swap times dependent on the blockchains’ own block time. You can estimate the time of a swap by multiplying a coin’s block time by 6 (10 for Monero), which is the average number of confirmations it takes to complete a swap in full. </p>
+                <p>The time it takes to complete a swap is entirely dependent on what coins are being swapped. Because BasicSwap uses the atomic swap protocol, swap settlements happen on-chain. That means you have to wait for a few blocks for swaps to confirm on both chains, thus making swap times dependent on the blockchains’ own block time.<br><br> You can estimate the time of a swap by multiplying a coin’s block time by 6 (10 for Monero), which is the average number of confirmations it takes to complete a swap in full. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -310,7 +310,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>If any problem occurs during a swap, like a bug happening or the other swapper failing a specific step for any reason, the coins of both participants will be refunded automatically at no additional charge. That is due to the “atomic” nature of atomic swaps. The protocol is built in such a way to only progress through the next step when very specific conditions are met. In any other cases, the swap times out and the coins, temporarily locked in atomic swap smart-contracts, are refunded back to their original owner. </p>
+                <p>If any problem occurs during a swap, like a bug happening or the other swapper failing a specific step for any reason, the coins of both participants will be refunded automatically at no additional charge. That is due to the “atomic” nature of atomic swaps.<br><br> The protocol is built in such a way to only progress through the next step when very specific conditions are met. In any other cases, the swap times out and the coins, temporarily locked in atomic swap smart-contracts, are refunded back to their original owner. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -332,7 +332,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>At this stage of the beta, yes. Your BasicSwap node needs to remain online for the duration of a swap. BasicSwap uses the P2P SecureMessaging network (SMSG) to communicate between the two participating chains and send the required swap data to the atomic swap smart-contracts. Because the entire process is step-based and atomic in nature, an SMSG node cannot currently transmit the required data if it is offline in the first place. We are working on resolving this requirement and enabling offline swaps, but that will come at a later time during the beta. </p>
+                <p>At this stage of the beta, yes. Your BasicSwap node needs to remain online for the duration of a swap.<br><br> BasicSwap uses the P2P SecureMessaging network (SMSG) to communicate between the two participating chains and send the required swap data to the atomic swap smart-contracts. Because the entire process is step-based and atomic in nature, an SMSG node cannot currently transmit the required data if it is offline in the first place.<br><br> We are working on resolving this requirement and enabling offline swaps, but that will come at a later time during the beta.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -354,7 +354,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>No. BasicSwap is entirely peer-to-peer and open-source. It does not collect or share any data whatsoever. Additionally, this website does not permanently store any data about you. We do not use any data analytics tool and we purge the IP from the server logs every 24 hours. </p>
+                <p>No. BasicSwap is entirely peer-to-peer and open-source. It does not collect or share any data whatsoever.<br><br> Additionally, this website does not permanently store any data about you. We do not use any data analytics tool and we purge the IP from the server logs every 24 hours. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -365,7 +365,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>1- Use <a class="text-blue-500" href="https://github.com/tecnovert/basicswap/blob/master/doc/tor.md" target="_blank" rel="noopener noreferrer">Tor</a>.<br> 2- Prioritize trading in privacy coins such as Monero or PART (Anon).<br> 3- Everything else is being taken care of by BasicSwap! </p>
+                <p>1- Use <a class="text-blue-500" href="https://github.com/tecnovert/basicswap/blob/master/doc/tor.md" target="_blank" rel="noopener noreferrer">Tor</a>.<br><br> 2- Prioritize trading in privacy coins such as Monero or PART (Anon).<br><br> 3- Everything else is being taken care of by BasicSwap! </p>
               </div>
             </div>
           </div>
@@ -390,7 +390,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>While BasicSwap is available on mainnet and generally works well, it is still considered a beta product for several reasons. For one, certain features and functionalities may feel less polished, in need of improvement, or simply missing. This is normal and part of the lifecycle of this beta phase. Please bear with us as we incrementally improve the protocol. Additionally, we have much more than what you currently see planned for it, but we’ve now reached a stage where we also want to start gathering feedback and stress-testing the application more aggressively. To build a strong product, we need to ensure its foundations are resilient, efficient, and built with longevity in mind. Opening up this beta phase to the public at this stage is a sure way to reach that goal more quickly. </p>
+                <p>While BasicSwap is available on mainnet and generally works well, it is still considered a beta product for several reasons.<br><br> For one, certain features and functionalities may feel less polished, in need of improvement, or simply missing. This is normal and part of the lifecycle of this beta phase. Please bear with us as we incrementally improve the protocol.<br><br> Additionally, we have much more than what you currently see planned for it, but we’ve now reached a stage where we also want to start gathering feedback and stress-testing the application more aggressively.<br><br> To build a strong product, we need to ensure its foundations are resilient, efficient, and built with longevity in mind. Opening up this beta phase to the public at this stage is a sure way to reach that goal more quickly. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -401,7 +401,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>BasicSwap is made up of three core components: the atomic swap protocol, the SecureMessaging network (SMSG), and scriptless scripts. Each of these fills a critical role and, when combined, form the BasicSwap DEX. Atomic swaps: They are what make swapping possible without third-parties. Atomic swaps follow an “atomic” and condition-based approach in which coins get temporarily locked in smart contracts until specific conditions are met. Should any step fail during the process, the swap expires and coins are refunded to their original holder after some time. Read more about atomic swaps here and more specifically about Monero atomic swaps here. SecureMessaging: The SMSG network is a peer-to-peer network that communicates between the two participating blockchains of a swap and feeds the swap data into the atomic swap smart-contracts. It is how two blockchains can communicate with each other without a central party. Additionally, the SMSG network provides other DEX-related services, such as BasicSwap’s distributed order book. Read more about the SMSG network here. Scriptless scripts: Scriptless scripts are a typically overlooked feature of Bitcoin and blockchains in general. Originating from MimbleWimble, they are, in their basic sense, a way to execute secure, scalable, and, most importantly, private smart-contracts off-chain using Schnorr Signatures or ECDSA. On BasicSwap, they are used to exchange the private key ownership of successful atomic swaps without leaving any trace on either side of a trade. Read more about scriptless scripts and their benefits here</p>
+                <p>BasicSwap is made up of three core components: the atomic swap protocol, the SecureMessaging network (SMSG), and scriptless scripts. Each of these fills a critical role and, when combined, form the BasicSwap DEX.<br><br><b>Atomic swaps:</b> They are what make swapping possible without third-parties. Atomic swaps follow an “atomic” and condition-based approach in which coins get temporarily locked in smart contracts until specific conditions are met. Should any step fail during the process, the swap expires and coins are refunded to their original holder after some time. Read more about atomic swaps <a class="text-blue-500" href="https://github.com/decred/atomicswap" target="_blank" rel="noopener noreferrer">here</a> and more specifically about Monero atomic swaps <a class="text-blue-500" href="https://github.com/h4sh3d/xmr-btc-atomic-swap" target="_blank" rel="noopener noreferrer">here.</a><br><br> <b>SecureMessaging:</b> The SMSG network is a peer-to-peer network that communicates between the two participating blockchains of a swap and feeds the swap data into the atomic swap smart-contracts. It is how two blockchains can communicate with each other without a central party. Additionally, the SMSG network provides other DEX-related services, such as BasicSwap’s distributed order book. Read more about the SMSG network <<a class="text-blue-500" href="https://particl.news/the-smsg-network-enabling-dapps-with-true-privacy/" target="_blank" rel="noopener noreferrer">here.</a><br><br><b>Scriptless scripts:</b> Scriptless scripts are a typically overlooked feature of Bitcoin and blockchains in general. Originating from MimbleWimble, they are, in their basic sense, a way to execute secure, scalable, and, most importantly, private smart-contracts off-chain using <a class="text-blue-500" href="https://en.wikipedia.org/wiki/Schnorr_signature" target="_blank" rel="noopener noreferrer">Schnorr Signatures</a> or <a class="text-blue-500" href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm" target="_blank" rel="noopener noreferrer">ECDSA.</a> On BasicSwap, they are used to exchange the private key ownership of successful atomic swaps without leaving any trace on either side of a trade. Read more about scriptless scripts and their benefits <a class="text-blue-500" href="https://tlu.tarilabs.com/cryptography/introduction-to-scriptless-scripts" target="_blank" rel="noopener noreferrer">here</a></p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -412,7 +412,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Yes - there is no central point of failure or centralized aspect with BasicSwap’s order book. It is powered by the SecureMessaging (SMSG) network and is entirely distributed. Read more about the SMSG network here..</p>
+                <p><b>Yes</b> - there is no central point of failure or centralized aspect with BasicSwap’s order book. It is powered by the SecureMessaging (SMSG) network and is entirely distributed. Read more about the SMSG network <a class="text-blue-500" href="https://particl.news/the-smsg-network-enabling-dapps-with-true-privacy/" target="_blank" rel="noopener noreferrer">here.</a></p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -423,7 +423,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>The SMSG network is a peer-to-peer network of nodes scattered across the world. Whenever you run BasicSwap, you also become an SMSG node. That means that, as long as there are BasicSwap users, the SMSG network will have enough nodes to keep the DEX online. But there’s more! SMSG is a powerful mixnet and, for this reason, powers other applications within the Particl ecosystem. Notably, it powers several functions of the Particl Marketplace dApp and is also directly integrated into Particl Core nodes. As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap). </p>
+                <p>The SMSG network is a peer-to-peer network of nodes scattered across the world. Whenever you run BasicSwap, you also become an SMSG node. That means that, as long as there are BasicSwap users, the SMSG network will have enough nodes to keep the DEX online.<br></br> But there’s more! SMSG is a powerful mixnet and, for this reason, powers other applications within the <a class="text-blue-500" href="https://particl.io" target="_blank" rel="noopener noreferrer">Particl ecosystem.</a> Notably, it powers several functions of the Particl Marketplace dApp and is also directly integrated into Particl Core nodes.<br></br> As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap). </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -445,7 +445,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Not at this time. BasicSwap needs to be manually compiled, which can be done by following the easy-to-follow instructions available here. Of course, we fully intend on providing premade builds moving forward, but that’s planned for later during the beta. </p>
+                <p>Not at this time. BasicSwap needs to be manually compiled, which can be done by following the easy-to-follow instructions available <a class="text-blue-500" href="https://academy.particl.io/en/latest/basicswap-guides/basicswapguides_installation.html" target="_blank" rel="noopener noreferrer">here</a>.<br><br> Of course, we fully intend on providing premade builds moving forward, but that’s planned for later during the beta. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -467,7 +467,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>A critical aspect of BasicSwap that makes it stable is that every trader becomes a P2P node that helps keep the DEX online. As long as there are BasicSwap users, it will remain online. Additionally, the SMSG network — the P2P network that powers BasicSwap — also powers other applications within the Particl ecosystem. Notably, it powers several functions of the Particl Marketplace dApp and is also directly integrated into Particl Core nodes. As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap). </p>
+                <p>A critical aspect of BasicSwap that makes it stable is that every trader becomes a P2P node that helps keep the DEX online. As long as there are BasicSwap users, it will remain online.<br><br> Additionally, the SMSG network — the P2P network that powers BasicSwap — also powers other applications within the Particl ecosystem. Notably, it powers several functions of the <a class="text-blue-500" href="https://particl.io/marketplace" target="_blank" rel="noopener noreferrer">here</a>Particl Marketplace dApp</a> and is also directly integrated into Particl Core nodes.<br><br> As the Particl project fully intends on powering more and more of its privacy-first dApps with the SMSG network as time goes by, the level of decentralization of the SMSG network and its node count is expected to keep on growing. In other words, as the number of BasicSwap AND Particl users grows, so does the degree of decentralization of its dApp (i.e., BasicSwap). </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -478,7 +478,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>We get asked this a lot, but fortunately, there is no catch. BasicSwap uses h4sh3d’s Monero atomic swap protocol; all other functions of the DEX are provided by the SMSG network and scriptless scripts. BasicSwap does not use wrapped Monero tokens, intermediate chains, or any other trickery. And while there is no catch, there is one caveat: at this point in time, it is only possible to execute XMR swaps one way. Indeed, it is not possible to place XMR sell offers on the order book, only buy orders (in exchange for another coin). That’s due to the current nature of the XMR atomic swap protocol. We’re happy to announce that we’re working on a solution to allow bi-directional XMR swaps. This is one of the next items in line during this beta. </p>
+                <p>We get asked this a lot, but fortunately, there is no catch. BasicSwap uses <a class="text-blue-500" href="https://github.com/h4sh3d/xmr-btc-atomic-swap" target="_blank" rel="noopener noreferrer">h4sh3d’s Monero atomic swap protocol</a>c; all other functions of the DEX are provided by the SMSG network and scriptless scripts. BasicSwap does not use wrapped Monero tokens, intermediate chains, or any other trickery.<br><br> And while there is no catch, there is one caveat: at this point in time, <b>it is only possible to execute XMR swaps one way.</b> Indeed, it is not possible to place XMR sell offers on the order book, only buy orders (in exchange for another coin).<br><br> That’s due to the current nature of the XMR atomic swap protocol. We’re happy to announce that we’re working on a solution to allow bi-directional XMR swaps. This is one of the next items in line during this beta. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -489,7 +489,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>The entirety of the code is open-source. Simply visit our Github here; every line of code can be thoroughly audited to ensure that BasicSwap does what we say it does. </p>
+                <p>The entirety of the code is open-source. Simply visit our Github <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here</a>; every line of code can be thoroughly audited to ensure that BasicSwap does what we say it does. </p>
               </div>
             </div>
           </div>
@@ -514,7 +514,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Reading this FAQ section is a good first step towards understanding BasicSwap, but you can learn more about it by heading over to its Particl Academy section here. </p>
+                <p>Reading this FAQ section is a good first step towards understanding BasicSwap, but you can learn more about it by heading over to its Particl Academy section <a class="text-blue-500" href="https://academy.particl.io/en/latest/basicswap-dex/basicswap_explained.html" target="_blank" rel="noopener noreferrer">here.</a> </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -525,7 +525,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Check out our Github and get familiar with the code to see where you can best contribute with your time or coding skills. Additionally, if you’ve got a real motivation to help us build this beast, then feel free to reach out to us at BasicSwap@particl.io.</p>
+                <p>Check out our Github and get familiar with the code to see where you can best contribute with your time or coding skills. Additionally, if you’ve got a real motivation to help us build this beast, then feel free to reach out to us at basicswap@particl.io.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -536,7 +536,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>We are always working on adding more coins to the DEX, but we want to know what coins YOU want to see on there. If you’re working for a cryptocurrency project and want to see your coin added to BasicSwap, then simply follow this link to make it happen!</p>
+                <p>We are always working on adding more coins to the DEX, but we want to know what coins YOU want to see on there. If you’re working for a cryptocurrency project and want to see your coin added to BasicSwap, then simply follow <a class="text-blue-500" href="https://academy.particl.io/en/latest/basicswap-guides/basicswapguides_apply.html" target="_blank" rel="noopener noreferrer">this link</a> to make it happen!</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -547,7 +547,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Send us an email at BasicSwap@particl.io </p>
+                <p>Send us an email at <b>basicswap@particl.io</b> </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -558,7 +558,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>We’re on Element, Reddit, Telegram, and Discord. Pick your poison!</p><!-- todo -->
+                <p>We’re on <a class="text-blue-500" href="https://app.element.io/#/room/#particlhelp:matrix.org" target="_blank" rel="noopener noreferrer">Element</a>, <a class="text-blue-500" href="http://reddit.com/r/particl" target="_blank" rel="noopener noreferrer">Reddit</a>, <a class="text-blue-500" href="https://t.me/particlhelp" target="_blank" rel="noopener noreferrer">Telegram</a>, and <a class="text-blue-500" href="https://discord.me/particl" target="_blank" rel="noopener noreferrer">Discord</a>.</p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -569,7 +569,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>There are many ways to help, including contributing code here. If you’re not a developer, the best way to help the project is simply by talking about it, and by providing liquidity. Getting more people to trade on the platform and getting more liquidity will go a very long way in making the DEX more usable and viable as an alternative to centralized exchanges. Every bit helps, no matter how small or big! If you’d like to participate in the project’s success in a more involved way, then absolutely feel free to reach out to us at BasicSwap@particl.io. </p>
+                <p>There are many ways to help, including contributing code <a class="text-blue-500" href="https://github.com/tecnovert/basicswap" target="_blank" rel="noopener noreferrer">here</a>. If you’re not a developer, the best way to help the project is simply by talking about it, and by providing liquidity. Getting more people to trade on the platform and getting more liquidity will go a very long way in making the DEX more usable and viable as an alternative to centralized exchanges. Every bit helps, no matter how small or big!<br><br> If you’d like to participate in the project’s success in a more involved way, then absolutely feel free to reach out to us at <b>basicswap@particl.io</b>. </p>
               </div>
             </div>
             <div class="item mb-10" x-data="{isOpen : false}">
@@ -580,7 +580,7 @@
                 </svg>
               </a>
               <div x-show="isOpen" @click.away="isOpen = false" class="mt-5" :class="{'text-coolGray-500 font-medium' : isOpen == true}">
-                <p>Install and run BasicSwap, then simply add your liquidity onto the order book (step-by-step guide available here). Please keep in mind that, at this current time, you’ll need to keep your local node (computer) online to execute swap, but we’re working on taking out that requirement soon during the beta phase.
+                <p>Install and run BasicSwap, then simply add your liquidity onto the order book (step-by-step guide available <a class="text-blue-500" href="https://academy.particl.io/en/latest/basicswap-guides/basicswapguides_make.html" target="_blank" rel="noopener noreferrer">here</a>). <b>Please keep in mind that, at this current time, you’ll need to keep your local node (computer) online to execute swap</b>, but we’re working on taking out that requirement soon during the beta phase.
               </div>
             </div>
           </div>
@@ -615,6 +615,9 @@
               <div class="w-full md:w-auto p-3 md:py-0 md:px-6">
                 <a class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium" href="roadmap">Roadmap</a>
               </div>
+               <div class="w-full md:w-auto p-3 md:py-0 md:px-6">
+                <a class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium" href="https://basicswapdex.com/mediakit/mediakit.zip">Mediakit</a>
+              </div>                 
             </div>
           </div>
         </div>
@@ -622,9 +625,17 @@
       <div class="border-b border-coolGray-100"></div>
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center py-12 md:pb-32">
-          <div class="w-full md:w-1/2 mb-6 md:mb-0">
-            <p class="text-coolGray-400 font-medium">© 2022~ BasicSwap. All rights reserved.</p>
-          </div>
+          <div class="w-full md:w-1/2 mb-6 md:mb-0"> 
+          <div class="flex items-center">
+            <p class="mr-1 text-sm text-gray-90 font-medium ">© 2022~ </p>
+            <p class="text-sm text-coolGray-400 font-medium">BasicSwapDEX</p> <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full"></span>
+            <p class="mr-2 text-sm font-bold text-gray-90 ">Made with </p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24">
+              <g stroke-linecap="round" stroke-width="2" fill="none" stroke="#f80b0b" stroke-linejoin="round">
+                <path d="M21.243,3.757 c-2.343-2.343-6.142-2.343-8.485,0c-0.289,0.289-0.54,0.6-0.757,0.927c-0.217-0.327-0.469-0.639-0.757-0.927 c-2.343-2.343-6.142-2.343-8.485,0c-2.343,2.343-2.343,6.142,0,8.485L12,21.485l9.243-9.243C23.586,9.899,23.586,6.1,21.243,3.757z"></path>
+              </g>
+            </svg> <span class="ml-2 text-sm font-bold text-gray-90 ">by TV and CRZ</span></div>   
+        </div>
           <div class="w-full md:w-1/2">
             <div class="flex flex-wrap md:justify-end -mx-5">
               <div class="px-5">
